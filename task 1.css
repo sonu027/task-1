@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: bold;
+}
+
+nav{
+   
+    display: grid;
+    grid-template-columns:8% 15% 10% auto;
+    background-color: red;
+    align-items: center;
+
+}
+#logo1{
+    width: 6rem;
+}
+#logo2{
+    width: 12rem;
+}
+#logo3{
+    padding-top: 2rem;
+    text-align: left;
+}
+nav > div{
+    text-align: right;
+    padding-right: 1rem;
+
+}
+#button1{
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+#Search{
+    border: none;
+    outline: none;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+
+}
+.channels{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 0.5rem;  
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.channels > div{
+    border: 0.1rem solid #80808069;
+    border-radius: 0.2rem;
+    text-align: center;
+
+}
+.channels > div > div{
+    text-align: left;
+}
+section > div > input{
+    width: 100%;
+    outline: none;
+    margin-bottom: 0.5rem;
+
+
+}
+#buttonC{
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    
+}
+#buttonC > input{
+    background-color: blue;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+    height: 3rem;
+}
+section > div{
+    margin-left: 0.5rem;
+
+}
